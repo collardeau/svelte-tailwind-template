@@ -1,6 +1,6 @@
-# svelte app with tailwind
+# Svelte App with Tailwind
 
-This is a project template for [Svelte](https://svelte.dev) apps.
+This is a project template for [Svelte](https://svelte.dev) apps, with TailwindCSS configured and ready-to-go.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -11,7 +11,7 @@ cd svelte-app
 
 _Note that you will need to have [Node.js](https://nodejs.org) installed._
 
-## Get started
+## Get Started
 
 Install the dependencies...
 
@@ -30,4 +30,10 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
+## Use
 
+Simply use tailwind classes in your Svelte component. To learn more about [TailwindCSS](https://tailwindcss.com/), check out [this wonderful series of videos](https://www.youtube.com/watch?v=Ybybd3GCNn4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=2) by its author,  Adam Wathan. 
+
+```javascript
+  <p class="text-green-500">Svelte + TailwindCSS :)</p>
+```
