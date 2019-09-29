@@ -1,4 +1,4 @@
-# Svelte App with Tailwind
+# Svelte App with Tailwind CSS
 
 This is a project template for [Svelte](https://svelte.dev) apps. TailwindCSS is configured with PostCSS and ready-to-go. Autoprefixer is also included.
 
