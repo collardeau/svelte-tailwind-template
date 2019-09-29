@@ -2,12 +2,7 @@
   export let name;
 </script>
 
-<style>
-  h1 {
-    color: purple;
-  }
-</style>
-
-<h1>Hello {name}!</h1>
-
-<p class="text-red-500">Tailwind enabled</p>
+<section class="p-4">
+  <h1>Hello {name}!</h1>
+  <p class="text-green-500">Svelte + TailwindCSS :)</p>
+</section>
