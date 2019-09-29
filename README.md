@@ -1,6 +1,6 @@
 # Svelte App with Tailwind
 
-This is a project template for [Svelte](https://svelte.dev) apps, with TailwindCSS configured and ready-to-go.
+This is a project template for [Svelte](https://svelte.dev) apps. TailwindCSS is configured with PostCSS and ready-to-go. Autoprefixer is also included.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -32,8 +32,10 @@ By default, the server will only respond to requests from localhost. To allow co
 
 ## Use
 
-Simply use tailwind classes in your Svelte component. To learn more about [TailwindCSS](https://tailwindcss.com/), check out [this wonderful series of videos](https://www.youtube.com/watch?v=Ybybd3GCNn4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=2) by its author,  Adam Wathan. 
+Simply use tailwind classes in your Svelte components:
 
 ```javascript
-  <p class="text-green-500">Svelte + TailwindCSS :)</p>
+  <p class="text-green-500">Svelte + TailwindCSS</p>
 ```
+
+ To learn more about [TailwindCSS](https://tailwindcss.com/), check out [this wonderful series of videos](https://www.youtube.com/watch?v=Ybybd3GCNn4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=2) by its author,  Adam Wathan. 
