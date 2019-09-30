@@ -37,7 +37,7 @@ By default, the server will only respond to requests from localhost. To allow co
 Simply use Tailwind classes in your Svelte components:
 
 ```javascript
-  <p class="text-green-500">Svelte + TailwindCSS</p>
+<p class="text-green-500">Svelte + TailwindCSS</p>
 ```
 
  To learn more about [TailwindCSS](https://tailwindcss.com/), check out [this wonderful series of videos](https://www.youtube.com/watch?v=Ybybd3GCNn4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=2) by its author,  Adam Wathan. 
