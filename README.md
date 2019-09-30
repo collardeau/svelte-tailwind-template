@@ -2,7 +2,7 @@
 
 This is a project template for [Svelte](https://svelte.dev) apps.
 
-It uses the [default starter template](https://github.com/sveltejs/template), and adds TailwindCSS via [postcss](https://postcss.org/). [Autoprefixer](https://www.npmjs.com/package/autoprefixer) is included. Production builds are optimized with [purgecss](https://github.com/FullHuman/purgecss).
+It uses the [default starter template](https://github.com/sveltejs/template), and adds [TailwindCSS](https://tailwindcss.com/) via [postcss](https://postcss.org/). [Autoprefixer](https://www.npmjs.com/package/autoprefixer) is included. Production builds are optimized with [purgecss](https://github.com/FullHuman/purgecss).
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
