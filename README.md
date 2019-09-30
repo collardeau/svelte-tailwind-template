@@ -1,12 +1,14 @@
 # Svelte App with Tailwind CSS
 
-This is a project template for [Svelte](https://svelte.dev) apps. TailwindCSS is configured with PostCSS and ready-to-go. Autoprefixer is also included.
+This is a project template for [Svelte](https://svelte.dev) apps.
+
+It uses the [default starter template](https://github.com/sveltejs/template), and adds TailwindCSS via [postcss](https://postcss.org/). [Autoprefixer](https://www.npmjs.com/package/autoprefixer) is included. Production builds are optimized with [purgecss](https://github.com/FullHuman/purgecss).
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit collardeau/svelte-tailwind-template svelte-app
-cd svelte-app
+npx degit collardeau/svelte-tailwind-template my-svelte-app
+cd my-svelte-app
 ```
 
 _Note that you will need to have [Node.js](https://nodejs.org) installed._
@@ -16,7 +18,7 @@ _Note that you will need to have [Node.js](https://nodejs.org) installed._
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd my-svelte-app
 npm install
 ```
 
@@ -30,9 +32,9 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
-## Use
+## Tailwind Usage
 
-Simply use tailwind classes in your Svelte components:
+Simply use Tailwind classes in your Svelte components:
 
 ```javascript
   <p class="text-green-500">Svelte + TailwindCSS</p>
